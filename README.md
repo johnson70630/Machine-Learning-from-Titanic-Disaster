@@ -38,7 +38,7 @@ The number of features is the number of features in the input, denoted as N
 Among inputs, each feature is multiplied pairwise. Therefore, if there are N features in inputs, the quadratic term will have (N)(N+1)/2 features, and the entire feature vector will have N + (N)(N+1)/2 features (including the original first-order terms)
 
 ### Training
-Train the weights using Gradient Descent! After training is complete, please return the weights
+Train the weights using Gradient Descent. After training is complete, return the weights
 
 ## File
 ### [level 1](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_competition/titanic_level1.py)
