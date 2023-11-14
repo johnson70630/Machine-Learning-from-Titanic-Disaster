@@ -28,7 +28,7 @@ Build a machine learning model to identify whether individuals on the Titanic su
 - Transform Embarked into Embarked_0, Embarked_1, and Embarked_2, and under each new feature, use 0 and 1 to represent the presence or absence of the category
 
 ## Normalization
-- Normalize each feature in the data separately, so that the values are between 0 and 1
+Normalize each feature in the data separately, so that the values are between 0 and 1
 
 ## Classification Model Training
 ### degree = 1
