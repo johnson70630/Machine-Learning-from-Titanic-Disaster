@@ -27,3 +27,16 @@ Build a machine learning model to identify whether individuals on the Titanic su
 - Transform Pclass into Pclass_0, Pclass_1, and Pclass_2, and under each new feature, use 0 and 1 to represent the presence or absence of the category
 - Transform Embarked into Embarked_0, Embarked_1, and Embarked_2, and under each new feature, use 0 and 1 to represent the presence or absence of the category
 
+## Normalization
+- Normalize each feature in the data separately, so that the values are between 0 and 1
+
+## Classification Model Training
+### degree = 1
+The number of features is the number of features in the input, denoted as N
+
+### degree = 2
+Among inputs, each feature is multiplied pairwise. Therefore, if there are N features in inputs, the quadratic term will have (N)(N+1)/2 features, and the entire feature vector will have N + (N)(N+1)/2 features (including the original first-order terms)
+
+### Training
+Train the weights using Gradient Descent! After training is complete, please return the weights
+
