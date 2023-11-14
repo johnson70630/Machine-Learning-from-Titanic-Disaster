@@ -40,3 +40,10 @@ Among inputs, each feature is multiplied pairwise. Therefore, if there are N fea
 ### Training
 Train the weights using Gradient Descent! After training is complete, please return the weights
 
+## File
+### [level 1](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_competition/titanic_level1.py)
+Write out the concepts of machine learning directly in code without using pandas and scikit-learn
+
+### [level 2](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_competition/titanic_level2.py)
+Read the file using pandas(pd), build the data, and then use scikit-learn(sklearn) for machine learning
+
