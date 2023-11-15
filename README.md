@@ -46,3 +46,18 @@ Write out the concepts of machine learning directly in code without using pandas
 ### [level 2](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_competition/titanic_level2.py)
 Read the file using pandas(pd), build the data, and then use scikit-learn(sklearn) for machine learning
 
+## Optimization
+
+### [Support Vector Machine (SVM)](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_pandas_svm.py)
+
+### [Priciple Component Analysis (PCA) degree=1](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_pandas_pca_degree1.py)
+### [Priciple Component Analysis (PCA) degree=2](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_pandas_pca_degree2.py)
+
+### [Dicision Tree (DTs)](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_pandas_decision_tree.py)
+
+### [Random Forest](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_random_forest.py)
+
+### [Bagging](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_bagging_classifier.py)
+
+### [k-means Clustering](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_k_means.py)
+
