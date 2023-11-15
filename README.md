@@ -86,8 +86,8 @@ From the training dataset, extract K samples, then train K classifiers (trees in
 
 ## Deep Learning
 
-### [Batch Gradient Descend](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_deep_learning/titanic_batch_gradient_descent.py)
-
 ### [Neural Network level 1](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_deep_learning/titanic_deep_nn.py)
+This file demonstrates how to create a deep neural network (5 layers NN) to train our titanic data.
 
 ### [Neural Network level 2](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_deep_learning/titanic_nn.py)
+This file demonstrates how to use batch gradient descent to update weights by numpy array.
