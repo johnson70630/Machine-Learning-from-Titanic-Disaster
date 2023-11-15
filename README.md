@@ -46,20 +46,43 @@ Write out the concepts of machine learning directly in code without using pandas
 ### [Machine Learning level 2](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_competition/titanic_level2.py)
 Read the file using pandas(pd), build the data, and then use scikit-learn(sklearn) for machine learning
 
-## Optimization
+## Different Models
 
 ### [Support Vector Machine (SVM)](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_pandas_svm.py)
+SVM (Support Vector Machine) is a supervised learning method that estimates a classification hyperplane using the principle of minimizing statistical risk. The fundamental concept is quite simple: find a decision boundary (hyperplane) that maximizes the margins between two classes, allowing for a perfect separation.
 
 ### [Priciple Component Analysis (PCA) degree=1](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_pandas_pca_degree1.py)
 ### [Priciple Component Analysis (PCA) degree=2](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_pandas_pca_degree2.py)
+Principal Component Analysis (PCA) is classified within machine learning as a method for dimension reduction and feature extraction. Dimension reduction aims to decrease the number of dimensions in the data, with the goal of maintaining overall performance without significant loss and, in some cases, improving it.
 
 ### [Dicision Tree (DTs)](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_pandas_decision_tree.py)
-
-### [Random Forest](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_random_forest.py)
+Decision trees can classify data step by step, offering logical and visual representation of the classification process. However, it's essential to control the depth of the tree to prevent overfitting.
 
 ### [Bagging](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_bagging_classifier.py)
+From the training dataset, extract K samples, then train K classifiers (trees in this case) using these K samples. Each time, the K samples are put back into the population, so there is some data overlap among these K samples. However, because the samples for each tree are still different, the trained classifiers (trees) have diversity. The final result is obtained by majority vote, where each classifier has equal weight.
+
+### [Random Forest](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_random_forest.py)
+1. Define a random sample of size n (here, using the bagging method), which involves randomly selecting n data points from the dataset with replacement
+
+2. From the selected n data points, train a decision tree. For each node:
+ - Randomly select d features
+ - Use these features to split the node (based on information gain
+3. Repeat steps 1 to 2 k times
+
+4. Aggregate the predictions of all decision trees and determine the classification result by majority vote 
 
 ### [k-means Clustering](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_k_means.py)
+1. Start by setting the desired number of clusters (k)
+
+2. In the feature space, randomly assign k centroids
+
+3. For each data point, calculate the distance to all k centroids
+
+4. Assign each data point to the cluster represented by the nearest centroid
+
+5. Within each cluster, update the centroid by recalculating it based on the data points assigned to that cluster
+
+6. Repeat steps 3-5 until the centroids' movement becomes negligible (convergence), indicating the algorithm has reached stability
 
 ## Deep Learning
 
