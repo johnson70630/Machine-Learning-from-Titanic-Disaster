@@ -3,6 +3,8 @@ Build a machine learning model to identify whether individuals on the Titanic su
 
 [Kaggle competition](https://www.kaggle.com/competitions/titanic)
 
+## Introduction
+Starting from basic data preprocessing, normalization, and handling categorical data through one-hot encoding, I progressed to the fundamental Logistic Regression model in Machine Learning, explored various optimized models, and concluded by using Deep Learning's Neural Network for training. 
 
 ## Data
 [training data](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_competition/titanic_data/train.csv)
