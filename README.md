@@ -86,6 +86,8 @@ From the training dataset, extract K samples, then train K classifiers (trees in
 
 6. Repeat steps 3-5 until the centroids' movement becomes negligible (convergence), indicating the algorithm has reached stability
 
+### [Naive Bayes](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_optimization/titanic_naive_bayes%20.ipynb)
+
 ## Deep Learning
 
 ### [Neural Network level 1](https://github.com/johnson70630/titanic-data-machine-learning/blob/main/titanic_deep_learning/titanic_deep_nn.py)
