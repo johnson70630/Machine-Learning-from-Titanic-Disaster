@@ -1,4 +1,4 @@
-# titanic-data-machine-learning
+# Machine-Learning-from-Titanic-Disaster
 Build machine learning models to identify whether individuals on the Titanic survived for Kaggle competition (Titanic - Machine Learning from Disaster)
 
 [Kaggle competition](https://www.kaggle.com/competitions/titanic)
